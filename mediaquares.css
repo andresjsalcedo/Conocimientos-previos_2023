@@ -1,0 +1,6 @@
+@media (width >=1367px) {
+    .details-container{
+        width: 25%;
+        padding: 100px;
+    }
+}
