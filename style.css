@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    background-color: rgb(217, 184, 134);
+
+}
 .titulo{
     text-align: center;
     font-family: "Nerko One", cursive;
@@ -17,9 +21,11 @@
 }
 .container{
     display: flex;
+    justify-content: space-around;
 }
 .details-container{
-    width: 150px;
+    width: 270px;
+    height: 230px;
     text-align: center;
     box-shadow: 10px 10px 10px black;
     background-color: blanchedalmond;
@@ -30,11 +36,14 @@
 }
 .details-container img{
     border-radius: 15px;
+    width: 300px;
+    height: 160px;
 }
 .details-container h2{
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
+    background-color: blanchedalmond;
 }
 .button-container{
     border-radius: 0.5rem;
@@ -47,7 +56,7 @@
     background-image: linear-gradient(144deg,#ec8b52, rgb(218, 172, 115) 50%,#eb9640);
     border: 0;
     border-radius: 8px;
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0 15px 30px -5px;
     box-sizing: border-box;
     color: #FFFFFF;
     font-family: Phantomsans, sans-serif;
@@ -90,3 +99,35 @@
    button:active {
     transform: scale(0.9);
    }
+/* Apartado para los estilos del contenido dentro del contenedor */
+.conteiner-in{
+    display: flex;
+    justify-content: space-around;
+}
+.style-conteiner{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.style-conteiner p{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+}
+.style-conteiner h1{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+}
