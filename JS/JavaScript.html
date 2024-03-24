@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>JAVASCRIPT</title>
+    <h1 class="titulo">Todo Sobre JavaScript</h1>
+    <div class="style-conteiner">
+        <p>JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado,
+         dialecto del estándar ECMAScript. Se define como orientado a objetos,
+         Se utiliza principalmente del lado del cliente, implementado como parte
+         de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas
+         JavaScript se diseñó con una sintaxis similar a C++ y Java, aunque adopta nombres y convenciones
+         del lenguaje de programación Java. Sin embargo, Java y JavaScript tienen semánticas y propósitos diferentes.
+        </p>
+    </div>
+</head>
+<body>
+    <h1 class="titulo">TIPOS DE DATOS</h1>
+    <div class="container-js">
+    <P class="p">
+    En JavaScript, como cualquier otro lenguaje de programación, vamos <br>
+    a querer trasladar la información del mundo real a nuestro código. <br>
+    Para ello, necesitamos entender qué tipos de datos existen en el <br> 
+    lenguaje para poder representar la información que necesitamos.  <br> <br>
+
+    En JavaScript tenemos 9 tipos de datos que se dividen en dos <br> 
+    grandes grupos: primitivos o no primitivos. Más adelante te contaré <br> 
+    qué significa esto, pero por ahora, vamos a ver los tipos primitivos. <br> <br>
+
+    Dentro de los tipos primitivos tenemos 7 tipos de datos:
+    </P>
+    <div class="conteiner-ul">
+    <ul class="ul">
+        <li>number</li>
+        <li>string</li>
+        <li>boolean</li>
+        <li>null</li>
+        <li>undefined</li>
+        <li>symbol</li>
+        <li>bigint</li>
+    </ul>
+</div>
+<h1 class="titulo">NUMBER</h1>
+  <p class="p">Los números (tipo number) son los datos más básicos que <br> 
+  podemos representar en JavaScript.En JavaScript, no hay una <br> 
+  diferencia entre números enteros y números decimales, todos los <br>
+  números son de tipo number:</p>
+  <div class="ejemplos-js">
+    <p>
+        7 <br>
+        3.14 <br>
+        19.95 <br>
+        2.998e8 <br>   
+        -1 
+    </p>
+  </div>
+  <h1 class="titulo">OPERADORES ARITMETICOS</h1>
+  <P class="p">
+    Con los números, puedes usar los operadores aritméticos <br>
+    para realizar operaciones matemáticas. En JavaScript tenemos <br>
+    los siguientes operadores aritméticos: <br>
+  </P>
+  <div class="conteiner-ul">
+    <ul class="ul">
+        <li>+ Suma </li>
+        <li>- Resta </li>
+        <li>* Multiplicacion</li>
+        <li>/ Division</li>
+        <li>% Modulo </li>
+        <li>** Exponente</li>
+    </ul>
+</div>
+<p class="p">
+    Al usar los operadores aritméticos, el resultado siempre será un número. <br>
+    Por ejemplo: 
+</p>
+<div class="ejemplos-js">
+    <p>
+        2 + 2 // 4 <br>
+        4 - 2 // 2 <br>
+        3 * 2 // 6 <br>
+        2 / 2 // 1 <br>   
+        2 % 2 // 0 <br>
+        3 ** 3 // 27 <br>
+    </p>
+  </div>
+  <p class="p">
+    Al igual que las matemáticas, las operaciones siguen un orden de precedencia. <br>
+    Por ejemplo, si queremos calcular el resultado de 2 + 2 * 3, <br>
+    primero se multiplicará 2 * 3 y luego se sumará 2 + 6. El resultado será 8. <br> <br>
+    También puedes usar paréntesis para cambiar el orden de las operaciones. <br>
+  </p>
+  <div class="ejemplos-js">
+    <p> 
+        2 + 2 * 3 // 8 <br> <br> <br> <br> <br>
+       (2 + 2) * 3 // 12
+    </p>
+  </div>
+  <h1 class="titulo">CADENAS DE TEXTO</h1>
+  <p class="p">
+    La cadena de texto (tipo string) es otro tipo de dato muy común. En JavaScript, <br>
+    las cadenas de texto se representan entre comillas simples, dobles o acentos graves:
+  </p>
+  <div class="ejemplos-js">
+    <p> 
+        'Estás aprendiendo JavaScript' <br> <br>
+
+        "JavaScript te va a gustar" <br> <br>
+        
+        `Esto es una cadena de texto` 
+    </p>
+  </div>
+  <p class="p">
+    Las comillas simples y dobles funcionan igual, pero al usar acentos graves <br>
+    podemos escribir cadenas de texto que ocupen varias líneas:
+  </p>
+  <div class="ejemplos-js">
+    <p> 
+        `Esto es una cadena de texto <br>
+        que ocupa varias líneas. Puedes escribir <br>  
+        tantas líneas como quieras`    
+    </p>
+  </div>
+  <p class="p">
+    En clases posteriores, veremos cómo funcionan, algunos métodos interesantes y <br>
+    sus diferencias.
+  </p>
+  <h1 class="titulo">CONCATENACION</h1>
+  <P class="p">
+    Para unir dos cadenas de texto, podemos usar el operador +:
+  </P>
+  <div class="ejemplos-js">
+    <p class="p">
+        'Estás aprendiendo ' + 'JavaScript' // 'Estás aprendiendo JavaScript'
+    </p>
+  </div>
+  <p class="p">
+    Como ves, el operador "+" de concatenación de cadenas de texto es visualmente <br>
+    el mismo que el operador "+" de suma de números. El operador "+" funciona de forma <br>
+    diferente dependiendo del tipo de dato que estemos usando.
+  </p>
+  <h1 class="titulo">BOOLEANOS</h1>
+  <p class="p">
+    Los booleanos representa sólo dos valores: true (verdadero) o false (falso). Por ejemplo:
+  </p>
+  <div class="conteiner-ul">
+    <ul class="ul">
+        <li>¿La luz está encendida (true) o apagada (false)?</li>
+        <li>¿Está lloviendo (true) o no está lloviendo (false)?</li>
+        <li>¿Está el usuario logueado (true) o no está logueado (false)?</li>
+    </ul>
+  </div>
+  <p class="p">
+    Estos son ejemplos de preguntas que podemos responder con un valor booleano.
+  </p>
+  <div class="ejemplos-js">
+    <p class="p">
+        True <br>
+        False
+    </p>
+  </div>
+  </div>
+</div>
+</body>
+<button><a href="../index.html">
+    Atras
+   </button></a>
+</html>

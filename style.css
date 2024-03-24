@@ -22,10 +22,25 @@
 .container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+.container-js{
+    text-align: center;
+    display: grid;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+ }
+ .p{
+    text-align: left;
+    display: inline-block;
+ }
+ 
 .details-container{
-    width: 270px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     text-align: center;
     box-shadow: 10px 10px 10px black;
     background-color: blanchedalmond;
@@ -36,8 +51,9 @@
 }
 .details-container img{
     border-radius: 15px;
-    width: 300px;
-    height: 160px;
+    width: 250px;
+    height: 140px;
+    flex-wrap: wrap;
 }
 .details-container h2{
     font-family: "Nerko One", cursive;
@@ -52,6 +68,7 @@
     font-style: normal;
 }
 .details-container button {
+    flex-wrap: wrap;
     align-items: center;
     background-image: linear-gradient(144deg,#ec8b52, rgb(218, 172, 115) 50%,#eb9640);
     border: 0;
@@ -123,11 +140,33 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    height: 115px;
+    width: 770px;
 }
 .style-conteiner h1{
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
     border-radius: 5px;
+}
+.ul{
+    text-align: left;
+    display: inline-block;
+    font-weight: 660;
+}
+.conteiner-ul{
+    text-align: center;
+}
+.ejemplos-js{
+    width: 500px;
+    height: 150px;
+    text-align: left;
+    box-shadow: 10px 10px 10px rgb(212, 167, 100);
+    background-color: rgb(228, 228, 228);
+    padding: 7px;
+    border-radius: 3px;
+}
+.ejemplos-js p{
+    background-color: rgb(228, 228, 228);
 }
